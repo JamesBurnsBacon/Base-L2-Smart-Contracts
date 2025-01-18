@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project-1-Deploying-To-Testnet/Hello-World.sol": "HelloWorld"
+			"Project-1-Deploying-To-Testnet/contracts/Hello-World.sol": "HelloWorld"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project-1-Deploying-To-Testnet/Hello-World.sol": {
+		"Project-1-Deploying-To-Testnet/contracts/Hello-World.sol": {
 			"keccak256": "0x7e87e98a66ebacb60a259c4e9e9df55e40de25c611543cb785c2c2e7172d0412",
 			"license": "MIT",
 			"urls": [
