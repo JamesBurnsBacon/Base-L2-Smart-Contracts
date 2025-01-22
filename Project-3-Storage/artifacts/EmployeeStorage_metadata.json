@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "viewSalary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewShares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project-3-Storage/EmployeeStorage.sol": "EmployeeStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project-3-Storage/EmployeeStorage.sol": {
+			"keccak256": "0xa2859da4535fd857579cdb723c7bd2341e201d727cc11210bba904c14945fa27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3d5d567e349442f4650077074db6456bdc894333984b80dfc460b785b0da438",
+				"dweb:/ipfs/QmTrRrMCbrCLActPTxcrZSTMFx4Hu7v2pKQoZhj5eeEYhW"
+			]
+		}
+	},
+	"version": 1
+}

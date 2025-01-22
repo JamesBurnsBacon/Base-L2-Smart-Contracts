@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
-import "hardhat/console.sol";
 
 contract ControlStructures {
     error AfterHours(uint _time);
