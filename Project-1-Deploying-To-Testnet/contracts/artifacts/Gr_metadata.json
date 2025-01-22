@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project-1-Deploying-To-Testnet/contracts/Greeter.sol": "HelloWorld"
+			"Project-1-Deploying-To-Testnet/contracts/Greeter.sol": "Gr"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"Project-1-Deploying-To-Testnet/contracts/Greeter.sol": {
-			"keccak256": "0x7e87e98a66ebacb60a259c4e9e9df55e40de25c611543cb785c2c2e7172d0412",
+			"keccak256": "0x7938be04c9c0ec9e56ce6a922df0326e678bd70d4ac49e8b7dce6285b7314eeb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d71b37deea8624d974d269ecbe65ca3c61be64650284007eb613c155d8321776",
-				"dweb:/ipfs/Qmci5xUhwjhrTBY6XuGGdWM2ZrnVEatKvSHrxksTBq52p9"
+				"bzz-raw://10dc2ebfe140972f2077515062491eea30eb7e0f9ce11ab678d18b2d6092a04d",
+				"dweb:/ipfs/QmYLmasup2VtcdtKnnK3LoWLGDZg4j6pAgh86HFC9tyK96"
 			]
 		}
 	},
