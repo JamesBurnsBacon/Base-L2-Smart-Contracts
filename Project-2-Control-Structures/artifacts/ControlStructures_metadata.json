@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "doNotDisturb",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "fizzBuzz",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project-2-Control-Structures/ControlStructures.sol": "ControlStructures"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project-2-Control-Structures/ControlStructures.sol": {
+			"keccak256": "0xeaaf716cee7cbf3e87ca133bd928cbfd9727fd1403902cb69c2b4338a5a8638c",
+			"urls": [
+				"bzz-raw://0de9bccb2460375aa39d24bcd9f323aad99a3a575c0072c5225b5fe99436f8ec",
+				"dweb:/ipfs/QmTUt6TqrNiVguNHvUeUR5PwRW7PJ9ABEdWLDJidDyNo2X"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
+			]
+		}
+	},
+	"version": 1
+}
