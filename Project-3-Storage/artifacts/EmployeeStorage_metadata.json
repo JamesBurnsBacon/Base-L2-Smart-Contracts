@@ -6,6 +6,45 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_slot",
+						"type": "uint256"
+					}
+				],
+				"name": "checkForPacking",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "debugResetShares",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newShares",
+						"type": "uint256"
+					}
+				],
+				"name": "grantShares",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "viewSalary",
 				"outputs": [
@@ -39,7 +78,14 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"checkForPacking(uint256)": {
+					"notice": "Do not modify this function.  It is used to enable the unit test for this pin to check whether or not you have configured your storage variables to make use of packing. If you wish to cheat, simply modify this function to always return `0` I'm not your boss ¯\\_(ツ)_/¯ Fair warning though, if you do cheat, it will be on the blockchain having been deployed by your wallet....FOREVER!"
+				},
+				"debugResetShares()": {
+					"notice": "Warning: Anyone can use this function at any time!"
+				}
+			},
 			"version": 1
 		}
 	},
@@ -60,11 +106,11 @@
 	},
 	"sources": {
 		"Project-3-Storage/EmployeeStorage.sol": {
-			"keccak256": "0xa2859da4535fd857579cdb723c7bd2341e201d727cc11210bba904c14945fa27",
+			"keccak256": "0xe871296d07c77298f8823337767a1293dc03669bb4e0c2201eb9a398992cff1a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f3d5d567e349442f4650077074db6456bdc894333984b80dfc460b785b0da438",
-				"dweb:/ipfs/QmTrRrMCbrCLActPTxcrZSTMFx4Hu7v2pKQoZhj5eeEYhW"
+				"bzz-raw://85df874fc939b176fa18520693ad5ecd2f75d3bc16cc94e3aaef74ffca46b5d8",
+				"dweb:/ipfs/QmPSioiYWfx7upsFdq8L1SxZKNmcZYHfMzbZ2f2cSWBH6D"
 			]
 		}
 	},
