@@ -8,24 +8,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "uint8",
+						"name": "_numberOfCars",
+						"type": "uint8"
 					},
 					{
-						"internalType": "uint16",
-						"name": "_shares",
-						"type": "uint16"
-					},
-					{
-						"internalType": "uint32",
-						"name": "_salary",
-						"type": "uint32"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_idNumber",
-						"type": "uint256"
+						"internalType": "uint8",
+						"name": "_numberAge",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -34,28 +24,24 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "shares",
-						"type": "uint256"
+						"internalType": "uint8",
+						"name": "_numberAge",
+						"type": "uint8"
 					}
 				],
-				"name": "TooManyShares",
-				"type": "error"
+				"name": "adminSetAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_slot",
-						"type": "uint256"
-					}
-				],
-				"name": "checkForPacking",
+				"inputs": [],
+				"name": "age",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "r",
-						"type": "uint256"
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -63,7 +49,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "debugResetShares",
+				"name": "cars",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateAge",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,72 +70,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint16",
-						"name": "_newShares",
-						"type": "uint16"
+						"internalType": "uint8",
+						"name": "_numberOfCars",
+						"type": "uint8"
 					}
 				],
-				"name": "grantShares",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"name": "updateCars",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "idNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "viewSalary",
-				"outputs": [
-					{
-						"internalType": "uint32",
-						"name": "",
-						"type": "uint32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "viewShares",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -147,20 +88,13 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"checkForPacking(uint256)": {
-					"notice": "Do not modify this function.  It is used to enable the unit test for this pin to check whether or not you have configured your storage variables to make use of packing. If you wish to cheat, simply modify this function to always return `0` I'm not your boss ¯\\_(ツ)_/¯ Fair warning though, if you do cheat, it will be on the blockchain having been deployed by your wallet....FOREVER!"
-				},
-				"debugResetShares()": {
-					"notice": "Warning: Anyone can use this function at any time!"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project-3-Storage/EmployeeStorage.sol": "EmployeeStorage"
+			"Project-3-Storage/SimpleStorage.sol": "EmployeeStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -174,12 +108,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project-3-Storage/EmployeeStorage.sol": {
-			"keccak256": "0x07b955a5d0ba7e7ef3039d0ee8b03f25f8904cda88a85c9c3f7b2787e5238893",
+		"Project-3-Storage/SimpleStorage.sol": {
+			"keccak256": "0xaf34a90ea96fbc028ed1da3014e7bf6a219fde94c2cb29f169aaa5693fb16593",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b353c3e54bc34693c08335cbe71a7c59ca9214794df3503c0979a9e6da32292",
-				"dweb:/ipfs/QmP3wv4kBqmxd8ua1pnA5xcVw5bsxajSeFWdVKKhYaPChr"
+				"bzz-raw://3eff2f48b6bafb347d41bf081eb2e57d58e2f7dfcd43743cf27281c1763ba4e3",
+				"dweb:/ipfs/QmceGCjxB2SyneYcv7D1zJgCfdhDTEokZMJJoMqKtiwcDz"
 			]
 		}
 	},

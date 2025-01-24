@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project-4-Arrays/ArraysExercise.sol": "ArraysExercise"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project-4-Arrays/ArraysExercise.sol": {
+			"keccak256": "0x898e1b97395c5d5ec97cdfa8f06c2e2f2dfe6a5e57e05545236ba63a56f77e71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://33af71b00caf7f84537b53c5a1ae3cfe9fec26e5ea1251e1cc79bd020270fa45",
+				"dweb:/ipfs/QmZi7Q2jinMtwGbuHd166dyqfM8ZbnNKUVQP3Jq2PS4yNX"
+			]
+		}
+	},
+	"version": 1
+}
