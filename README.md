@@ -4,7 +4,7 @@ Building and deploying select smart contracts to Base Sepolia Testnet, from the 
 ### Possible Projects
 - [x] Deploying to a Testnet
 - [x] Control Structures
-- [ ] Storage
+- [x] Storage
 - [ ] Arrays
 - [ ] Mappings
 - [ ] Structs
