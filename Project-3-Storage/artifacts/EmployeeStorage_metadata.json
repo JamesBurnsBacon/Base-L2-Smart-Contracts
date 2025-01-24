@@ -8,6 +8,43 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_shares",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_salary",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_idNumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "shares",
+						"type": "uint256"
+					}
+				],
+				"name": "TooManyShares",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_slot",
 						"type": "uint256"
@@ -34,14 +71,46 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint16",
 						"name": "_newShares",
-						"type": "uint256"
+						"type": "uint16"
 					}
 				],
 				"name": "grantShares",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -49,12 +118,12 @@
 				"name": "viewSalary",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint32",
 						"name": "",
-						"type": "uint256"
+						"type": "uint32"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -62,12 +131,12 @@
 				"name": "viewShares",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint16",
 						"name": "",
-						"type": "uint256"
+						"type": "uint16"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -106,11 +175,11 @@
 	},
 	"sources": {
 		"Project-3-Storage/EmployeeStorage.sol": {
-			"keccak256": "0xe871296d07c77298f8823337767a1293dc03669bb4e0c2201eb9a398992cff1a",
+			"keccak256": "0x07b955a5d0ba7e7ef3039d0ee8b03f25f8904cda88a85c9c3f7b2787e5238893",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85df874fc939b176fa18520693ad5ecd2f75d3bc16cc94e3aaef74ffca46b5d8",
-				"dweb:/ipfs/QmPSioiYWfx7upsFdq8L1SxZKNmcZYHfMzbZ2f2cSWBH6D"
+				"bzz-raw://4b353c3e54bc34693c08335cbe71a7c59ca9214794df3503c0979a9e6da32292",
+				"dweb:/ipfs/QmP3wv4kBqmxd8ua1pnA5xcVw5bsxajSeFWdVKKhYaPChr"
 			]
 		}
 	},

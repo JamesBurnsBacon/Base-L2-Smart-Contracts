@@ -2,18 +2,29 @@
 pragma solidity 0.8.26;
 
 contract EmployeeStorage {
-    uint shares = 1000;
-    string name = "Pat";
-    uint salary = 50000;
-    uint idNumber = 112358132134;
-    function viewSalary() external returns(uint) {
+    error TooManyShares(uint shares);
     
+    string public name;
+    uint16 private shares;
+    uint32 private salary;
+    uint public idNumber;
+    constructor(string memory _name, uint16 _shares, uint32 _salary, uint _idNumber) {
+        name = _name;
+        shares = _shares;
+        salary = _salary;
+        idNumber = _idNumber;
     }
-    function viewShares() external returns(uint) {
-
+    function viewSalary() view external returns(uint32) {
+        return salary;
     }
-    function grantShares(uint _newShares) public {
-
+    function viewShares() view external returns(uint16) {
+        return shares;
+    }
+    function grantShares(uint16 _newShares) public returns(string memory){
+        if (_newShares > 5000) { revert("Too many shares"); }
+        shares += _newShares;
+        if (shares > 5000) { revert TooManyShares(shares); }
+        return "New share balance granted";
     }
     /**
     * Do not modify this function.  It is used to enable the unit test for this pin

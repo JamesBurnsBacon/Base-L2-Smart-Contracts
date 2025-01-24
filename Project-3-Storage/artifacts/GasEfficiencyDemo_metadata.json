@@ -6,52 +6,52 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_time",
-						"type": "uint256"
-					}
-				],
-				"name": "AfterHours",
-				"type": "error"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_time",
-						"type": "uint256"
-					}
-				],
-				"name": "doNotDisturb",
+				"inputs": [],
+				"name": "result",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
-				"name": "fizzBuzz",
-				"outputs": [
+				"name": "sumLessEfficient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "sumMoreEfficient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -68,7 +68,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project-2-Control-Structures/ControlStructures.sol": "ControlStructures"
+			"Project-3-Storage/GasEfficiencyStackDemo.sol": "GasEfficiencyDemo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -82,12 +82,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project-2-Control-Structures/ControlStructures.sol": {
-			"keccak256": "0xf34874b4fac112b057d4d60d31ba81d9f20f431e92ccef91dd27583506057f3b",
+		"Project-3-Storage/GasEfficiencyStackDemo.sol": {
+			"keccak256": "0xe6c25569c7f8790651f279f56cb954bd1b9602f4e612b29199652f519200e7ce",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://672167d577200db313e1d24cf8d70dd08885bf732d994b6eea653623be34a939",
-				"dweb:/ipfs/QmZwYf8KqGdgHZQz4mrNHEDPzei5MHFHtnE23kLV9EJssV"
+				"bzz-raw://fe8524f2da2417c4fd49c4d48b73efabf68d7c6a04317907cf6f25eee5841b66",
+				"dweb:/ipfs/QmV15bX7bzqr9PvCWCSbB2R3Ja51kprQzACPFSU3AgtKeM"
 			]
 		}
 	},
