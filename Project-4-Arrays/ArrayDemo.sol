@@ -2,10 +2,11 @@
 pragma solidity 0.8.26;
 
 contract ArrayDemo {
-    uint[] public numbers = [1,2,3,4,5,6,7,8,9,10];
+    uint numEven;
+    uint[] public numbers;
 
     function getEvenNumbers() external view returns(uint[] memory) {
-        uint resultsLen = _countEvenNumbers();
+        uint resultsLen = numEven; //_countEvenNumbers();
         uint[] memory results = new uint[](resultsLen);
         uint cursor = 0;
 
@@ -27,4 +28,13 @@ contract ArrayDemo {
         }
         return EvenNumbersTotal;
     }
-}
+
+    function debugLoadArray(uint _number) external {
+        for(uint i = 0; i < _number; i++) {
+            numbers.push(i);
+            if(i % 2 == 0) {
+                numEven++;
+            }
+        }
+    }
+} // no cost to call view or pure functions from a front end app!
