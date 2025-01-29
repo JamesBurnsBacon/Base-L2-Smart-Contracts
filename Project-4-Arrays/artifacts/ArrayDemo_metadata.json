@@ -6,61 +6,35 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_newElement",
-						"type": "uint256"
-					}
-				],
-				"name": "addElementToDynamicArray",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "dynamicArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "fixedArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "removeLastElementOfDynamicArray",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getEvenNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -77,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project-4-Arrays/Arrays.sol": "Arrays"
+			"Project-4-Arrays/ArrayDemo.sol": "ArrayDemo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -91,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project-4-Arrays/Arrays.sol": {
-			"keccak256": "0xee01f6b88070cc1059645c3481bf1746e51323660598d929643acbe75cc671b8",
+		"Project-4-Arrays/ArrayDemo.sol": {
+			"keccak256": "0x88db1ae188fa32053041220062898a5944d852e39cc3e71617239d04981fa7ae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dac7d240b15b57d7c3b52208c006d568e59cae3e3f3b7ffff28de52b1f924232",
-				"dweb:/ipfs/QmQ6P4f6RXxhKrM73k9qy87YyFhRnNwutW4tnRf2hErFAu"
+				"bzz-raw://e91d39839a4baab96305fa89ca30f0cff7c600485da0bbea8251b508484d43a3",
+				"dweb:/ipfs/QmcGkunEXJVtnKL9PDoWikn3iTc6abHVracw6ZaWKwqxAP"
 			]
 		}
 	},
