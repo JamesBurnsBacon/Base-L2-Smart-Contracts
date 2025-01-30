@@ -12,6 +12,6 @@ Building and deploying select smart contracts to Base Sepolia Testnet, from the 
 - [ ] Imports
 - [ ] Errors
 - [ ] The "new" keyword
-- [ ] Minimal Tokens
+- [x] Minimal Tokens
 - [ ] ERC-20 Tokens
 - [ ] ERC-721 Tokens
