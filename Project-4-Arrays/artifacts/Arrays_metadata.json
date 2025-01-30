@@ -22,6 +22,24 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_newElement",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "addElementToFixedArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -58,9 +76,35 @@
 			},
 			{
 				"inputs": [],
+				"name": "getFirstFiveElementsOfFixedArray",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "removeLastElementOfDynamicArray",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "slot0",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -92,11 +136,11 @@
 	},
 	"sources": {
 		"Project-4-Arrays/Arrays.sol": {
-			"keccak256": "0xee01f6b88070cc1059645c3481bf1746e51323660598d929643acbe75cc671b8",
+			"keccak256": "0xdeca2e3882bd504dd4db367df3f972a0f64f26d1ddd2937551bcb85d9ca1fd2c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dac7d240b15b57d7c3b52208c006d568e59cae3e3f3b7ffff28de52b1f924232",
-				"dweb:/ipfs/QmQ6P4f6RXxhKrM73k9qy87YyFhRnNwutW4tnRf2hErFAu"
+				"bzz-raw://6e347a0271dd85dd9bf06aa2b7c81e85f621ec8a148f282285d99f270d9aa837",
+				"dweb:/ipfs/QmdMacyqGpfxXPYA3iUPVXPow7nfhio6DfzSDfDPuxmTky"
 			]
 		}
 	},

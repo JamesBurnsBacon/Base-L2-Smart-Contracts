@@ -2,9 +2,11 @@
 pragma solidity 0.8.26;
 
 contract Arrays {
-    uint[] public dynamicArray;
+    uint[] public dynamicArray  = [1,2];
 
-    uint[10] public fixedArray; //size cap of ten, declared as state variables in storage
+    bytes32 public slot0 = keccak256(abi.encode(0));
+
+    uint[10] public fixedArray = [1,2,3,4,5,6,7,8,9,10]; //size cap of ten, declared as state variables in storage
 
     function addElementToDynamicArray(uint _newElement) external {
         dynamicArray.push(_newElement); 
@@ -12,6 +14,19 @@ contract Arrays {
 
     function removeLastElementOfDynamicArray() external {
         dynamicArray.pop();
+    }
+
+    function addElementToFixedArray(uint _newElement, uint _index) external {
+        // fixedArray.push(_newElement); doesnt work here
+        fixedArray[_index] = _newElement;
+    }
+
+    function getFirstFiveElementsOfFixedArray() view external returns(uint[5] memory) {
+        uint[5] memory result;
+        for(uint index = 0; index < 5; index++) {
+            result[index] = fixedArray[index];
+        }
+        return result; 
     }
 }
 
