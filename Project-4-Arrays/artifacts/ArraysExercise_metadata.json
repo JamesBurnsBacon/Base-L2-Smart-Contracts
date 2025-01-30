@@ -20,7 +20,7 @@
 						"type": "address[]"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -169,11 +169,11 @@
 	},
 	"sources": {
 		"Project-4-Arrays/ArraysExercise.sol": {
-			"keccak256": "0x7f83562ab0dfae0dad890b5ead70ce72cf1166556bf8da6d4b9dd2e1524f8b35",
+			"keccak256": "0xdbdef266cd117507f0dd8fadf81d3267bf6ae7528eb39ed30e00f78d000634bd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c350609a3afe427a9d16dcdaa6221310f1b36e2b06598d1b4045fdd979e4143",
-				"dweb:/ipfs/QmYCWzAmSez9WMMD9fsRXM8LqcM15gNaFYCNrwuwqgmhWU"
+				"bzz-raw://c50d4f1d515fff71b933ab7db5391fa0411854c39950fd821e6b8afc246839f3",
+				"dweb:/ipfs/QmS3XY8ibNtaaWoB11yKPNwy4mt1UnjAc6dyR6fGkbPvVZ"
 			]
 		}
 	},
