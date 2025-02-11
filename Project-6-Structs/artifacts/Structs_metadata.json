@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_birthDay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_favColor",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[5]",
+						"name": "_lotteryNumbers",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "addFavorite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "register",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "userFavorites",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birthDayOfMonth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "favoriteColor",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project-6-Structs/Structs.sol": "Structs"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project-6-Structs/Structs.sol": {
+			"keccak256": "0x18b6094cc52095dbb91aa826a3c2eb7ecc045783bcbafed04ea09e858c182ba7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c154c1d4aadfe217f9a675d6d1df0cf6a17def022e581eb2757ca2949f582235",
+				"dweb:/ipfs/QmW9WwEFDhqydnvBdKHNaE44WRE3dNiMW2m3U4Qn6gZ2Ls"
+			]
+		}
+	},
+	"version": 1
+}
